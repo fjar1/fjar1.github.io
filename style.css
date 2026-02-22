@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#143450;
+    height: 600px;
+}
+
+.container{
+    display: flex;
+    height: 700x;
+    width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    margin: auto;
+    margin-top: 75px;
+ }
+
+ .info {
+    background-image: url(images/logo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 50px;
+    width: 50%;
+    text-align:center;
+    
+ }
+
+ /*.txt-1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: -10px;
+    
+ }*/
+
+ .info img{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+ 
+ }
+
+
+
+ .info h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 20px;
+ }
+ 
+ .info hr{
+    width: auto;
+    border: 4px solid #fff ;
+   /* margin-left: 120px;*/
+    margin-bottom: 25px;
+    
+ }
+
+ .txt-2 {
+    color: white;
+    font-size: 15px;
+ }
+
+ .form {
+    padding: 150px 50px;
+    width: 50%;
+    text-align: center;
+    background-color: #002639;
+    /*background-image: url(images/logo3.PNG);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-left: 4px solid #dba526 ;
+
+ }
+
+ .form h2 {
+    color: #dba526;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+ }
+
+ .form p{
+    font-size: 16px;
+    color: #b1b0b0;
+    margin-bottom: 25px;
+ }
+
+ .inputs {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .box{
+    outline: none;
+    border-color: #dba526;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 15px 10px ;
+    margin-bottom: 25px;
+    background-color:black;
+    color: rgb(5, 190, 5);
+    width: 350px;
+ }
+
+ .bx-user{
+    color: #dba526;
+    font-size: 20px;
+ }
+
+ .bx-lock-keyhole{
+    color: #dba526;
+    font-size: 20px;
+ }
+
+
+ .inputs a{
+    color: white;
+    margin-bottom: 25px;
+ }
+
+ .submit{
+    
+    text-transform: uppercase;
+    background-color:#dba526;
+    color: white;
+    padding: 10px;
+    border-radius: 25px; 
+    border: 0;
+    
+ }
+
+
+
+
+/* ------ */
+/* ------ */
+/* ------ */
+/* ------ */
+/* GLOSARIO
+-border-radius: 25px; esto hace que la forma del boton cambie de cuadrada a redonda
+-text-transform: uppercase; esto hace que el texto se cambie todo a mayuscula
+-text-transform: capitalize; esto hace que la primera letra de cada palabra se ponga en mayuscula
+-box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);  esto hace que se muestre una pequeña sombra del cuador contorno
+-box-sizing: border-box; esto hace que el el contorno de los elementos sea la suma del padding border y width y height , evita que los elementos se agranden inesperadamente
+-display: flex; esto hace que los elementos se muestren en columnas horizontales
+-flex-direction: column; esto junto al "display:flex" hace que las columnas hechas por el display flex cambien de horizontales a verticales
